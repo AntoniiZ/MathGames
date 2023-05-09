@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Math Games</string>
+    <string name="appName">Math Games</string>
+    <string name="startQuiz">quiz with expressions</string>
+    <string name="magic_triangle">Find a magic triangle</string>
+    <string name="guess_the_number">Guess the number</string>
+    <string name="question">Question:</string>
+    <string name="guess">Guess</string>
+    <string name="check">Check</string>
+</resources>

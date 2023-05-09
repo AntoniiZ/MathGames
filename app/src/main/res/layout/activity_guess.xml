@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/mainBackgroundColor"
+    tools:context="mathgames.example.com.mathgames.GuessActivity">
+
+    <TextView
+        android:id="@+id/guessANum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="161dp"
+        android:text="Guess a num from 0 to 1000:"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/guessedNumber"
+        android:layout_width="150sp"
+        android:layout_height="50sp"
+        android:layout_alignStart="@+id/guessANum"
+        android:layout_alignTop="@+id/confirmNumBtn"
+        android:layout_marginStart="35dp"
+        android:background="@color/blue"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/confirmNumBtn"
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/guessANum"
+        android:layout_below="@+id/guessANum"
+        android:layout_marginEnd="45dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/round_btn2"
+        android:textColor="@color/white"
+        android:text="@string/guess"
+        android:onClick="onClickGuess"
+        android:textSize="20sp" />
+</RelativeLayout>

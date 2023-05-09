@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBackgroundColor"
+    tools:context="mathgames.example.com.mathgames.TriangleActivity">
+
+
+    <TextView
+        android:id="@+id/triangle"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61dp"
+        android:text="Find a magic triangle by filling numbers in nodes"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:textStyle="italic" />
+
+
+    <EditText
+        android:id="@+id/node1"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="175sp"
+        android:layout_marginStart="175sp"
+        android:textAlignment="center"
+        android:background="@drawable/round_btn" />
+
+
+    <EditText
+        android:id="@+id/node2"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="250sp"
+        android:layout_marginStart="125sp"
+        android:textAlignment="center"
+        android:background="@drawable/round_btn" />
+
+
+    <EditText
+        android:id="@+id/node3"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="250sp"
+        android:layout_marginStart="225sp"
+        android:textAlignment="center"
+        android:background="@drawable/round_btn" />
+
+
+    <EditText
+        android:id="@+id/node4"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="325sp"
+        android:layout_marginStart="50sp"
+        android:textAlignment="center"
+        android:background="@drawable/round_btn" />
+
+
+    <EditText
+        android:id="@+id/node5"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="325sp"
+        android:layout_marginStart="175sp"
+        android:textAlignment="center"
+        android:background="@drawable/round_btn" />
+
+
+    <EditText
+        android:id="@+id/node6"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="325sp"
+        android:layout_marginStart="300sp"
+        android:textAlignment="center"
+        android:background="@drawable/round_btn" />
+
+    <Button
+        android:id="@+id/magicTriangleBtn"
+        android:layout_width="100sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="450sp"
+        android:textAlignment="center"
+        android:background="@drawable/round_btn2"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClickCheckTriangle"
+        android:text="@string/check"
+        />
+
+</RelativeLayout>
